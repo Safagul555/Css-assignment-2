@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 40px;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(to right, #fdfbfb, #ebedee);
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: black;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: whitesmoke;
+  margin-bottom: 40px;
+}
+
+.assignment {
+  background-color: darkcyan;
+  padding: 20px;
+  border-left: 5px solid #3498db;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.assignment:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.assignment h2 {
+  margin: 0 0 10px;
+  color: black;
+}
+
+.assignment a {
+  display: inline-block;
+  margin-right: 15px;
+  margin-top: 8px;
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+.assignment a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+
+.assignment a:hover {
+  text-decoration: underline;
+}
+
+/* Mobile responsive */
+@media (max-width: 600px) {
+  body {
+    padding: 20px;
+  }
+
+  .assignment a {
+    display: block;
+    margin-bottom: 10px;
+  }
+}
